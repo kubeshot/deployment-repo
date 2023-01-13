@@ -1,0 +1,15 @@
+apiVersion: storage.gcp.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  name: test-bucket-oodles-35480
+  labels:
+  annotations:
+    crossplane.io/external-name: test-bucket-oodles-35480
+spec:
+  forProvider:
+    location: US
+    uniformBucketLevelAccess: true
+    storageClass: REGIONAL
+  providerConfigRef:
+    name: default
+  deletionPolicy: Delete
