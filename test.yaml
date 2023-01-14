@@ -1,10 +1,10 @@
 apiVersion: storage.gcp.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: test-bucket-oodles-35480
+  name: testbucket-76498
   labels:
   annotations:
-    crossplane.io/external-name: test-bucket-oodles-35480
+    crossplane.io/external-name: testbucket-76498
 spec:
   forProvider:
     location: US
