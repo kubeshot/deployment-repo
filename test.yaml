@@ -1,15 +1,15 @@
 apiVersion: storage.gcp.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: testbucket-76498
+  name: tessst-bckt-51054
   labels:
   annotations:
-    crossplane.io/external-name: testbucket-76498
+    crossplane.io/external-name: tessst-bckt-51054
 spec:
   forProvider:
     location: US
     uniformBucketLevelAccess: true
-    storageClass: REGIONAL
+    storageClass: ARCHIVE
   providerConfigRef:
     name: default
   deletionPolicy: Delete
