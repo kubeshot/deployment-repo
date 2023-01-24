@@ -3,7 +3,7 @@ kind: StorageBucket
 metadata:
   # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
   name: 0000000000-udaytestbucket # kpt-set: ${org-id}-logginglogsink-${department-code}
-  namespace: config-control # kpt-set: ${management-namespace}
+  namespace: config-management-system # kpt-set: ${management-namespace}
   annotations:
     cnrm.cloud.google.com/project-id: test-backstage-plugin # kpt-set: ${guardrails-project-id}
 spec:
