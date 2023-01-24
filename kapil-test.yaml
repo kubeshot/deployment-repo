@@ -6,5 +6,6 @@ metadata:
     cnrm.cloud.google.com/project-id: "test-backstage-plugin"
     cnrm.cloud.google.com/force-destroy: "true"
   name: testbucket-kcc-kapil-milestone2
+  namespace: config-control
 spec:
   uniformBucketLevelAccess: true
